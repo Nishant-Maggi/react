@@ -1,0 +1,129 @@
+h1{
+    text-align: center;
+    color: darkturquoise;
+}
+body{
+    
+   background-image: url("images/backg.jpg");
+   background-size: cover;
+}
+.item img{
+    position: fixed;
+    top: 65%;
+}
+.reactimg{
+    position: fixed;
+    left: 28%;
+    bottom: 57%;
+}
+
+.reactimg p{
+    color: gold;
+    position: fixed;
+    top: 15%;
+    left: 0%;
+    font-size: x-large;
+}
+.reactimg h3{
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    color: white;
+    opacity: 0;
+}
+
+.reactimg:hover h3{
+    opacity: 1;
+}
+
+.reactimg:hover img{
+    opacity: 0.4;
+}
+
+.jordImg img{
+    position: fixed;
+    bottom: 60%;
+    left: 55%;
+}
+
+.jordImg p{
+    color: gold;
+    font-size: x-large;
+    position: fixed;
+    top: 14%;
+    left: 80%;
+}
+
+.tutandset img{
+    position: fixed;
+    top: 60%;
+    left: 40%;
+}
+
+.jordImg:hover h3{
+    opacity: 1;
+}
+
+.jordImg :hover img{
+    opacity: 0.40;
+}
+
+
+
+.jordImg h3{
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    color: white;
+    opacity: 0;
+}
+
+.tutandset h3{
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    color: white;
+    opacity: 0;
+}
+
+.tutandset:hover img{
+    opacity: 0.4;
+}
+
+.tutandset:hover h3{
+    opacity: 1;
+}
+
+.item h3{
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 27%;
+}
+
+.item img{
+    position: absolute;
+    left: 25%;
+}
+
+.item2 img{
+    position: absolute;
+    left: 65%;
+    top: 75%;
+}
+
+.item2 h3{
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 60%;
+}
+
+.item3 img{
+    position: absolute;
+    left: 2%;
+    top: 6%;
+}
